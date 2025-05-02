@@ -25,7 +25,7 @@ The goal is to preprocess the data, train models, evaluate their performance, an
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/shahriarpshuvo/customer-churn-prediction.git
+   git clone https://github.com/shahriarpshuvo/customer-churn-prediction
    cd customer-sentiment-churn-analysis
    ```
 
@@ -43,8 +43,8 @@ The goal is to preprocess the data, train models, evaluate their performance, an
    │   ├── amazon_reviews.csv
    │   └── telco_churn.csv
    ├── src/
+   │   └── notebook.ipynb
    ├── models/
-   ├── notebook.ipynb
    ├── requirements.txt
    └── README.md
    ```
