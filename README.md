@@ -18,38 +18,14 @@ The goal is to preprocess the data, train models, evaluate their performance, an
    - The model is saved as `saved_svm.pkl` for future use.
    - The dataset is preprocessed to handle categorical variables and missing values.
 
-## Project Structure
-
-```sh
-project/
-│
-├── data/
-│   ├── amazon_reviews.csv
-│   └── telco_churn.csv
-│
-├── src/
-│   ├── preprocess.py
-│   ├── train_sentiment.py
-│   ├── train_churn.py
-│   ├── evaluate.py
-│   └── explain.py
-│
-├── models/
-│   ├── saved_lstm.h5
-│   └── saved_svm.pkl
-│
-├── notebook.ipynb
-│
-├── requirements.txt
-└── README.md
-```
-
 ## Usage
+
+> Make sure you have Python 3.9-3.11 installed. You can create a virtual environment to manage dependencies.
 
 1. Clone the repository:
 
    ```bash
-   git clone  URL_ADDRESS.com/your-username/customer-sentiment-churn-analysis.git
+   git clone https://github.com/shahriarpshuvo/customer-churn-prediction.git
    cd customer-sentiment-churn-analysis
    ```
 
@@ -73,34 +49,10 @@ project/
    └── README.md
    ```
 
-4. Run the preprocessing script:
+4. Run the notebook:
 
    ```bash
-   python src/preprocess.py
-   ```
-
-5. Train the sentiment analysis model:
-
-   ```bash
-   python src/train_sentiment.py
-   ```
-
-6. Train the churn prediction model:
-
-   ```bash
-   python src/train_churn.py
-   ```
-
-7. Evaluate the models:
-
-   ```bash
-   python src/evaluate.py
-   ```
-
-8. Explain the churn predictions:
-
-   ```bash
-   python src/explain.py
+   jupyter notebook notebook.ipynb
    ```
 
 ## Results
