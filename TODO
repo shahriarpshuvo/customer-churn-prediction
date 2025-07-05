@@ -1,0 +1,29 @@
+Code: 
+  - Generate Graph
+  - Calculate Multinomial Naive Bayes, BERT for Seniment Analysis
+  - Calculate Churn Prediction with Multinomial Naive Bayes, BERT
+  - Model Comparison Graphs for Sentiment Analysis and Churn Prediction
+  - Export Graphs
+  - Update Code
+
+Paper: 
+  - Fix plagiarism
+  - Add Graphs
+  - Update Findings 
+  - Link machine learning/deep learning model with Churn Prediction
+  - Link explainable AI with Churn Prediction
+  - Update Latex with Graphs
+  - Export PDF
+
+Presentation:
+  Outline:
+    - Introduction
+    - Problem Statement
+    - Our Objective
+    - Related Work
+    - Proposed Methodology
+    - Terms Familiarity
+    - Results
+    - Conclusion
+    - Future Work
+    - References

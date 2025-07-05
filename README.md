@@ -31,7 +31,7 @@ The goal is to preprocess the data, train models, evaluate their performance, an
 
 2. Install the required dependencies:
 
-   ```bash
+   ```bashtrae .
    pip install -r requirements.txt
    ```
 
